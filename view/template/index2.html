@@ -1,0 +1,422 @@
+<!doctype html >
+<html lang="pt-BR">
+<head>
+    <title>TASKFLOW</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="../../asserts/static/ribbon/css/ribbon.css" rel="stylesheet" type="text/css"/>
+    <link href="../../asserts/static/ribbon/css/soft_button.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="../../asserts/static/theme/lib/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../asserts/static/theme/lib/jquery-toggles/toggles-full.css">
+
+
+    <link href="../../asserts/static/theme/css/quirk.css" rel="stylesheet">
+
+    <script src="../../asserts/static/theme/lib/modernizr/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../../asserts/static/theme/lib/html5shiv/html5shiv.js"></script>
+    <script src="../../asserts/static/theme/lib/respond/respond.src.js"></script>
+    <![endif]-->
+
+    <script src="../../asserts/static/theme/lib/jquery/jquery.js"></script>
+    <script src="../../asserts/static/theme/lib/jquery-ui/jquery-ui.js"></script>
+    <script src="../../asserts/static/theme/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../../asserts/static/theme/lib/jquery-toggles/toggles.js"></script>
+
+    <script src="../../asserts/static/theme/js/quirk.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="headerpanel">
+        <div class="logopanel">
+            <h2><a href="index.html">TASKFLOW</a></h2>
+        </div>
+        <div class="headerbar">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs nav-info">
+                        <li class="active"><a href="#perfil" data-toggle="tab" aria-expanded="true"><strong>Perfil</strong></a></li>
+                        <li class=""><a href="#projeto" data-toggle="tab" aria-expanded="false"><strong>Projeto</strong></a></li>
+                        <li class=""><a href="#projeto" data-toggle="tab" aria-expanded="false"><strong>Guilda</strong></a></li>
+                        <li class=""><a href="#projeto" data-toggle="tab" aria-expanded="false"><strong>Desafios</strong></a></li>
+                        <li class=""><a href="#gamification" data-toggle="tab" aria-expanded="false"><strong>Gamification</strong></a></li>
+                        <li class=""><a href="#configurar" data-toggle="tab" aria-expanded="false"><strong>Configurar</strong></a></li>
+                        <li class=""><a href="#relatorio" data-toggle="tab" aria-expanded="false"><strong>Relatório</strong></a></li>
+                        <li class=""><a href="#chat" data-toggle="tab" aria-expanded="false"><strong>Sala da Justiça</strong></a></li>
+                    </ul>
+                    <div class="tab-content mb20">
+                        <div class="tab-pane tab-pane-ribbon active" id="perfil">
+
+
+                        </div>
+                        <div class="tab-pane tab-pane-ribbon" id="projeto">
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Projeto</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Projeto</span>
+                                </div>
+                                <span class="section-title">Projetos</span>
+                            </div>
+
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Tarefa</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Adicionar Tarefa</span>
+                                </div>
+                                <span class="section-title">Tarefas</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane tab-pane-ribbon" id="gamification">
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Gamification</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Nova Gamification</span>
+                                </div>
+                                <span class="section-title">Gamification</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane tab-pane-ribbon" id="configurar">
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Clã</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Clã</span>
+                                </div>
+                                <span class="section-title">Clã</span>
+                            </div>
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Familia</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Nova Familia</span>
+                                </div>
+                                <span class="section-title">Familia</span>
+                            </div>
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Prestigio</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Prestigio</span>
+                                </div>
+                                <span class="section-title">Prestigio</span>
+                            </div>
+                        </div>
+                        <div class="tab-pane tab-pane-ribbon" id="relatorio">
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Clã</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Clã</span>
+                                </div>
+                                <span class="section-title">Clã</span>
+                            </div>
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Familia</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Nova Familia</span>
+                                </div>
+                                <span class="section-title">Familia</span>
+                            </div>
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Prestigio</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Prestigio</span>
+                                </div>
+                                <span class="section-title">Prestigio</span>
+                            </div>
+                        </div>
+                        <div class="tab-pane tab-pane-ribbon" id="chat">
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Clã</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Clã</span>
+                                </div>
+                                <span class="section-title">Clã</span>
+                            </div>
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Familia</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Nova Familia</span>
+                                </div>
+                                <span class="section-title">Familia</span>
+                            </div>
+                            <div class="ribbon-section">
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/new-table.png"/>
+                                    <span class="button-title">Listar Prestigio</span>
+                                </div>
+                                <div class="ribbon-button ribbon-button-large">
+                                    <img class="ribbon-icon ribbon-normal"
+                                         src="../../asserts/static/ribbon/icons/normal/open-table.png"/>
+                                    <span class="button-title">Novo Prestigio</span>
+                                </div>
+                                <span class="section-title">Prestigio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="mainpanel">
+        <div class="contentpanel">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="profile-left padding10">
+                        <div class="profile-left-heading">
+                            <ul class="panel-options">
+                                <li><a><i class="glyphicon glyphicon-option-vertical"></i></a></li>
+                            </ul>
+                            <div class="profile-photo"><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" class="img-circle img-responsive"></div>
+                            <h2 class="profile-name">Nome do Projeto</h2>
+                            <h4 class="profile-designation">Responsável</h4>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">Tarefas <a href="#">333</a></li>
+                                <li class="list-group-item">Concluido <a href="#">75%</a></li>
+                            </ul>
+                            <button class="btn btn-danger btn-quirk btn-block profile-btn-follow">Detalhes</button>
+                        </div>
+                        <div class="profile-left-body">
+                            <h4 class="panel-title">Descrição</h4>
+                            <p>Descrição do Projeto</p>
+
+                            <hr class="fadeout">
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h5 class="panel-title text-warning">Status: Em Andamento</h5>
+                                    <h3 class="text-success">39.9%</h3>
+                                    <div class="progress">
+                                        <div style="width: 39.9%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="39.9" role="progressbar" class="progress-bar progress-bar-success">
+                                            <span class="sr-only">39.9% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="fadeout">
+
+                            <h4 class="panel-title">Equipe</h4>
+                            <ul class="list-inline profile-social">
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="profile-left padding10">
+                        <div class="profile-left-heading">
+                            <ul class="panel-options">
+                                <li><a><i class="glyphicon glyphicon-option-vertical"></i></a></li>
+                            </ul>
+                            <div class="profile-photo"><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" class="img-circle img-responsive"></div>
+                            <h2 class="profile-name">Nome do Projeto</h2>
+                            <h4 class="profile-designation">Responsável</h4>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">Tarefas <a href="#">333</a></li>
+                                <li class="list-group-item">Concluido <a href="#">75%</a></li>
+                            </ul>
+                            <button class="btn btn-danger btn-quirk btn-block profile-btn-follow">Detalhes</button>
+                        </div>
+                        <div class="profile-left-body">
+                            <h4 class="panel-title">Descrição</h4>
+                            <p>Descrição do Projeto</p>
+
+                            <hr class="fadeout">
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h5 class="panel-title text-warning">Status: Em Andamento</h5>
+                                    <h3 class="text-success">39.9%</h3>
+                                    <div class="progress">
+                                        <div style="width: 39.9%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="39.9" role="progressbar" class="progress-bar progress-bar-success">
+                                            <span class="sr-only">39.9% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="fadeout">
+
+                            <h4 class="panel-title">Equipe</h4>
+                            <ul class="list-inline profile-social">
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="profile-left padding10">
+                        <div class="profile-left-heading">
+                            <ul class="panel-options">
+                                <li><a><i class="glyphicon glyphicon-option-vertical"></i></a></li>
+                            </ul>
+                            <div class="profile-photo"><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" class="img-circle img-responsive"></div>
+                            <h2 class="profile-name">Nome do Projeto</h2>
+                            <h4 class="profile-designation">Responsável</h4>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">Tarefas <a href="#">333</a></li>
+                                <li class="list-group-item">Concluido <a href="#">75%</a></li>
+                            </ul>
+                            <button class="btn btn-danger btn-quirk btn-block profile-btn-follow">Detalhes</button>
+                        </div>
+                        <div class="profile-left-body">
+                            <h4 class="panel-title">Descrição</h4>
+                            <p>Descrição do Projeto</p>
+
+                            <hr class="fadeout">
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h5 class="panel-title text-warning">Status: Em Andamento</h5>
+                                    <h3 class="text-success">39.9%</h3>
+                                    <div class="progress">
+                                        <div style="width: 39.9%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="39.9" role="progressbar" class="progress-bar progress-bar-success">
+                                            <span class="sr-only">39.9% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="fadeout">
+
+                            <h4 class="panel-title">Equipe</h4>
+                            <ul class="list-inline profile-social">
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="profile-left padding10">
+                        <div class="profile-left-heading">
+                            <ul class="panel-options">
+                                <li><a><i class="glyphicon glyphicon-option-vertical"></i></a></li>
+                            </ul>
+                            <div class="profile-photo"><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" class="img-circle img-responsive"></div>
+                            <h2 class="profile-name">Nome do Projeto</h2>
+                            <h4 class="profile-designation">Responsável</h4>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">Tarefas <a href="#">333</a></li>
+                                <li class="list-group-item">Concluido <a href="#">75%</a></li>
+                            </ul>
+                            <button class="btn btn-info btn-quirk btn-block profile-btn-follow">Detalhes</button>
+                        </div>
+                        <div class="profile-left-body">
+                            <h4 class="panel-title">Descrição</h4>
+                            <p>Descrição do Projeto</p>
+
+                            <hr class="fadeout">
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <h5 class="panel-title text-warning">Status: Em Andamento</h5>
+                                    <h3 class="text-success">39.9%</h3>
+                                    <div class="progress">
+                                        <div style="width: 39.9%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="39.9" role="progressbar" class="progress-bar progress-bar-success">
+                                            <span class="sr-only">39.9% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="fadeout">
+
+                            <h4 class="panel-title">Equipe</h4>
+                            <ul class="list-inline profile-social">
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                                <li><a href=""><img alt="" src="../../asserts/static/theme/images/photos/profilepic.png" width="64" class="img-circle img-responsive"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
